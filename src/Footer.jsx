@@ -9,7 +9,7 @@ export default class Footer extends Component {
           <div className="footer-about">
             <h3>Aftab Khan</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore!
+             Front-End Developer
             </p>
           </div>
           <div className="footer-socialicon">

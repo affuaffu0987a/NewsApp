@@ -46,15 +46,19 @@ footer {
     background-color: black;
     color: white;
     min-height: 20vh;
+    position: relative;
+    width: 100%;
+    bottom: -1px;
 }
 .container1{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .container2{
    display: flex;
    justify-content: space-around;
-   
+   flex-wrap: wrap;
 }
 
 .icons{
@@ -67,3 +71,31 @@ footer {
       flex-direction: column;
       color: white;
     }
+
+/* @media(max-width:800px){
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    flex-direction: column;
+}
+.footer-about h3 {
+    font-size: 3rem;
+}
+.footer-about p {
+    font-size: 2.8rem;
+}
+.footer-socialicon h3{
+    font-size: 2.8rem;
+}
+.icons{
+    font-size: 2rem;
+}
+} */
